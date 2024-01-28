@@ -1,0 +1,197 @@
+#grid
+{
+    display: grid;
+    grid-template-rows: 130px 500px 300px 300px 400px 700px;
+    grid-template-columns:  100% ;
+    height: 100vh;
+}
+#d1
+{
+grid-row: 1/2;
+grid-column: 1/2;
+color: brown;
+background-image: url(/img.html/download\ \(1\).jpg);
+width: 100%;
+background-attachment: fixed;
+text-align: center;
+
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    float:left;
+    width: 10%;
+    line-height: 10px;
+    padding-left: 6%;
+    font-size: small;
+   padding-bottom: 10px;
+}
+ul li a{
+    font-size: 24px;
+    color:brown;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: antiquewhite;
+    color: brown;
+}
+#d2
+{   grid-row: 2/3;
+    grid-column: 1/2;
+    background-image:url(/img.html/restaurant-blur-background-design-resource_236836-16729.webp);
+    color: rgb(223, 223, 166);
+    text-align: center;
+    width: 1500px;
+    padding-top:100px;
+    font-family:'Segoe UI';
+    font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#d3
+{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+    width: 900px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+#d4
+{   display: grid;
+    grid-template-rows: 300px ;
+    grid-template-columns: 700px 500px;
+}
+#sub1
+{ grid-row: 1/2;
+    
+    grid-column: 1/2;
+    background-image: url(/img.html/download\ \(2\).jpg);
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 8px 8px 8px red;
+    
+}
+#sub2
+{ grid-row: 1/2;
+  grid-column: 2/3;
+  margin-left:100px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 50px;
+}
+#sub2 a{
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+#e4
+{   display: grid;
+    grid-template-rows: 350px ;
+    grid-template-columns: 50% 20%;
+}
+#sub3
+{  grid-row: 1/2;
+   grid-column: 1/2;
+   margin-top: 70px;
+   margin-left: 300px;
+   text-align: center;
+   padding-top: 10px;
+}
+#sub4
+{   grid-row: 1/2;
+    grid-column: 2/3;
+    background-image:url(/img.html/mojitos.jpg);
+    width: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-left: 20px ;
+    box-shadow: 8px 8px 8px red;
+}
+#d5
+{  display: grid;
+    grid-template-rows: 700px ;
+    grid-template-columns: 750px 700px;
+background-image: url(/img.html/Tomato-Pasta-Thumbnail.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+#left
+{
+    grid-row:1/2 ;
+    grid-column:1/2 ;
+    border: 3px solid black;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: beige;
+    color: brown;
+    text-align: center;
+    padding-top: 60px;    
+}
+#right
+{
+    grid-row:1/2 ;
+    grid-column:2/3 ;
+    border: 3px solid black;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-left:130px ;
+    padding-right: 130px;
+    font-size: 20px;
+}
+#date
+{text-decoration: none;
+    display: inline-block;
+    border: 5px solid brown;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    width: 200px;
+}
+#time
+{
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid brown;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    width: 200px;
+}
+#book
+{
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid brown;
+    padding: 10px;
+    color: white;
+    margin-top:20px ;
+    width: 230px;
+    background-color:brown;
+}
+#box
+{
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid brown;
+    padding: 10px;
+    color: black;
+    width: 230px;
+    margin-top: 20px;
+}

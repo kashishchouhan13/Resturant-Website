@@ -1,0 +1,242 @@
+
+#grid
+{
+    display: grid;
+    grid-template-rows: 130px 100px 100px 500px 100px 500px 100px 500px 100px 500px ;
+    grid-template-columns:  100% ;
+    height: 100vh;
+   
+}
+#d1
+{
+grid-row: 1/2;
+grid-column: 1/2;
+color: brown;
+background-image: url(/img.html/download\ \(1\).jpg);
+width: 100%;
+text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    float:left;
+    width: 10%;
+    line-height: 10px;
+    padding-left: 6%;
+    font-size: small;
+    padding-bottom: 10px;
+}
+ul li a{
+    font-size: 24px;
+    color:brown;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: antiquewhite;
+    color: brown;
+}
+#d2
+{
+    grid-row:2/3 ;
+    grid-column:1/2;
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    
+}
+
+#d3
+{
+    grid-row:3/4 ;
+    grid-column:1/2;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(151, 62, 62);
+}
+#d4
+{   display: grid;
+    grid-template-rows: 350px ;
+    grid-template-columns: 500px  500px 500px;
+}
+#a1
+{
+    grid-row:1/2;
+    grid-column:1/2;
+    background-image: url(/img.html/Biscuit-Canapes-665x443.jpg);
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#a2
+{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-image: url(/img.html/stater\ paneer.jpg);
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    background-position:contain;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#a3
+{
+    grid-row:1/2;
+    grid-column:3/4;
+    background-image: url(/img.html/mojitos.jpg);
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#d5
+{
+    grid-row:5/6 ;
+    grid-column:1/2;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(151, 62, 62);
+}
+#d6
+{   display: grid;
+    grid-template-rows: 350px ;
+    grid-template-columns: 500px 500px 500px;
+}
+#b1
+{
+    grid-row:1/2;
+    grid-column:1/2;
+    background-image: url(/img.html/vegitable\ pizzas.cms);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#b2
+{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-image: url(/img.html/tomato\ pizza.png);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#b3
+{
+    grid-row:1/2;
+    grid-column:3/4;
+    background-image: url(/img.html/pizza.jpg);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#d7
+{
+    grid-row:7/8 ;
+    grid-column:1/2;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(151, 62, 62);
+}
+#d8
+{   display: grid;
+    grid-template-rows: 350px ;
+    grid-template-columns: 500px 500px 500px;
+}
+#c1
+{
+    grid-row:1/2;
+    grid-column:1/2;
+    background-image: url(/img.html/palak\ paneer.jpg);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#c2
+{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-image: url(/img.html/Chilli-Paneer.jpg);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#c3
+{
+    grid-row:1/2;
+    grid-column:3/4;
+    background-image: url(/img.html/palak\ paneer.jpg);
+    margin-left: 70px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#d9
+{
+    grid-row:9/10 ;
+    grid-column:1/2;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(151, 62, 62);
+}
+#d10
+{   display: grid;
+    grid-template-rows: 350px ;
+    grid-template-columns: 500px 500px 500px;
+}
+#e1
+{
+    grid-row:1/2;
+    grid-column:1/2;
+    background-image: url(/img.html/cake.jpg);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#e2
+{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-image: url(/img.html/pasrty.jpg);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#e3
+{
+    grid-row:1/2;
+    grid-column:3/4;
+    background-image:url(/img.html/gulab\ jamun.jpg);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    box-shadow: 8px 8px 8px red;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+#a1:hover, #a2:hover, #a3:hover, #b1:hover, #b2:hover, #b3:hover, #c1:hover, #c2:hover, #c3:hover, #e1:hover, #e2:hover, #e3:hover {
+    transform: scale(1.1); /* Apply scale transformation for #a2 */
+}
+    
