@@ -10,7 +10,9 @@
 grid-row: 1/2;
 grid-column: 1/2;
 color: brown;
-background-image: url(/img.html/download\ \(1\).jpg);
+background-image: url(/img/happen/download.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 width: 100%;
 background-attachment: fixed;
 text-align: center;
@@ -40,15 +42,16 @@ a:hover
 #d2
 {   grid-row: 2/3;
     grid-column: 1/2;
-    background-image:url(/img.html/restaurant-blur-background-design-resource_236836-16729.webp);
+    background-image:url(/img/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg);
     color: rgb(223, 223, 166);
     text-align: center;
-    width: 1500px;
+    width: 100%;
     padding-top:100px;
     font-family:'Segoe UI';
     font-size: 50px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+background-repeat: no-repeat; /* Prevents the image from repeating */
+background-size: cover; 
 }
 #d3
 {
@@ -69,7 +72,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 { grid-row: 1/2;
     
     grid-column: 1/2;
-    background-image: url(/img.html/download\ \(2\).jpg);
+    background-image: url(/img/Healthy_recipes_big_898.jpg);
     margin-left: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +111,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 #sub4
 {   grid-row: 1/2;
     grid-column: 2/3;
-    background-image:url(/img.html/mojitos.jpg);
+    background-image:url(/img/strawberry-mojito-featured-image.jpg);
     width: 400px;
     background-size:cover;
     background-repeat: no-repeat;
@@ -120,7 +123,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 {  display: grid;
     grid-template-rows: 700px ;
     grid-template-columns: 750px 700px;
-background-image: url(/img.html/Tomato-Pasta-Thumbnail.jpg);
+background-image: url(/img/download.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -137,14 +140,16 @@ background-attachment: fixed;
     background-color: beige;
     color: brown;
     text-align: center;
-    padding-top: 60px;    
+    padding-top: 60px;  
+    margin-right: 40px;  
 }
 #right
 {
     grid-row:1/2 ;
     grid-column:2/3 ;
     border: 3px solid black;
-    margin-right: 100px;
+    margin-right: 200px;
+    
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: brown;
