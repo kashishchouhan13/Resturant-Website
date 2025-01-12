@@ -7,12 +7,15 @@
     height: 100vh;
    
 }
+
 #d1
 {
 grid-row: 1/2;
 grid-column: 1/2;
 color: brown;
-background-image: url(/img.html/download\ \(1\).jpg);
+background-image: url(/img/happen/download.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 width: 100%;
 text-align: center;
 }
@@ -44,6 +47,7 @@ a:hover
     text-align: center;
     color: brown;
     font-size: 25px;
+    width: 100%;
     
 }
 
@@ -59,15 +63,19 @@ a:hover
 #d4
 {   display: grid;
     grid-template-rows: 350px ;
-    grid-template-columns: 500px  500px 500px;
+    grid-template-columns: 400px  400px 400px;
+    width: 100%;
+  
 }
 #a1
 {
     grid-row:1/2;
     grid-column:1/2;
-    background-image: url(/img.html/Biscuit-Canapes-665x443.jpg);
+    background-image: url(/img/menu/Pinterest.jpg);
     background-repeat: no-repeat;
-    margin-left: 90px;
+    background-size: cover; 
+    margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -76,9 +84,11 @@ a:hover
 {
     grid-row:1/2;
     grid-column:2/3;
-    background-image: url(/img.html/stater\ paneer.jpg);
+    background-image: url(/img/menu/flavorful-vegetarian-starter-features-vibrant-palak-paneer-creamy-soft-cheese-cubes-nestled-rich-spinach-gravy-topped-336321532.webp);
     background-repeat: no-repeat;
-    margin-left: 90px;
+    background-size: cover;
+    margin-left: 70px;
+    margin-right: 10px;
     background-position:contain;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
@@ -88,9 +98,11 @@ a:hover
 {
     grid-row:1/2;
     grid-column:3/4;
-    background-image: url(/img.html/mojitos.jpg);
+    background-image: url(/img/amazin-blue-mojito.png);
     background-repeat: no-repeat;
-    margin-left: 90px;
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 0px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -107,15 +119,17 @@ a:hover
 #d6
 {   display: grid;
     grid-template-rows: 350px ;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 400px 400px 400px;
 }
 #b1
 {
     grid-row:1/2;
     grid-column:1/2;
-    background-image: url(/img.html/vegitable\ pizzas.cms);
+    background-image: url(/img/menu/53351352.webp);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -124,9 +138,11 @@ a:hover
 {
     grid-row:1/2;
     grid-column:2/3;
-    background-image: url(/img.html/tomato\ pizza.png);
+    background-image: url(/img/menu/90027362.webp);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -135,8 +151,9 @@ a:hover
 {
     grid-row:1/2;
     grid-column:3/4;
-    background-image: url(/img.html/pizza.jpg);
+    background-image: url(/img/menu/images.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 70px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
@@ -154,15 +171,17 @@ a:hover
 #d8
 {   display: grid;
     grid-template-rows: 350px ;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 400px 400px 400px;
 }
 #c1
 {
     grid-row:1/2;
     grid-column:1/2;
-    background-image: url(/img.html/palak\ paneer.jpg);
+    background-image: url(/img/menu/IMG_4122-small.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -171,9 +190,11 @@ a:hover
 {
     grid-row:1/2;
     grid-column:2/3;
-    background-image: url(/img.html/Chilli-Paneer.jpg);
+    background-image: url(/img/menu/5bc7ae3754c6c3f45bb1c9e2b622a459.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -182,7 +203,8 @@ a:hover
 {
     grid-row:1/2;
     grid-column:3/4;
-    background-image: url(/img.html/palak\ paneer.jpg);
+    background-image: url(/img/menu/images\ \(1\).jpg);
+    background-size: cover;
     margin-left: 70px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
@@ -200,15 +222,17 @@ a:hover
 #d10
 {   display: grid;
     grid-template-rows: 350px ;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 400px 400px 400px;
 }
 #e1
 {
     grid-row:1/2;
     grid-column:1/2;
-    background-image: url(/img.html/cake.jpg);
+    background-image: url(/img/menu/Raspberry-ripple-blondies-0ac9567.jpg);
     background-repeat: no-repeat;
-    margin-left: 50px;
+    background-size: cover;
+    margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -217,9 +241,11 @@ a:hover
 {
     grid-row:1/2;
     grid-column:2/3;
-    background-image: url(/img.html/pasrty.jpg);
+    background-image: url(/img/menu/images\ \(2\).jpg);
     background-repeat: no-repeat;
-    margin-left: 50px;
+    background-size: cover;
+    margin-left: 70px;
+    margin-right: 10px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
     transition-duration: 1s;
@@ -228,8 +254,9 @@ a:hover
 {
     grid-row:1/2;
     grid-column:3/4;
-    background-image:url(/img.html/gulab\ jamun.jpg);
+    background-image:url(/img/menu/easy-chocolate-molten-cakes-37a25eb.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 50px;
     box-shadow: 8px 8px 8px red;
     transition-property: transform;
