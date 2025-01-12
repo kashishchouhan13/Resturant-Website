@@ -10,7 +10,9 @@
 grid-row: 1/2;
 grid-column: 1/2;
 color: brown;
-background-image: url(/img.html/download\ \(1\).jpg);
+background-image: url(/img/happen/download.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 width: 100%;
 text-align: center;
 }
@@ -61,9 +63,9 @@ a:hover
     grid-column: 2/3;
     margin-top: 100px;
     margin-bottom:20px ;
-    background-image: url(/img.html/chef2.jpeg);
+    background-image: url(/img/menu/premium_photo-1661778091956-15dbe6e47442.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-left: 50px;
     box-shadow: 8px 8px 8px blue;
     
