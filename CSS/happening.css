@@ -11,7 +11,9 @@
 grid-row: 1/2;
 grid-column: 1/2;
 color: brown;
-background-image: url(/img.html/download\ \(1\).jpg);
+background-image: url(/img/happen/download.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 width: 100%;
 text-align: center;
 }
@@ -51,14 +53,15 @@ a:hover
 {
     display: grid;
     grid-template-rows: 450px ;
-    grid-template-columns: 750px 660px;
+    grid-template-columns: 650px 550px;
 }
 #a1
 {
     grid-row:1/2 ;
     grid-column:1/2 ;
-    background-image: url(/img.html/bithdy\ party.png);
+    background-image: url(/img/happen/65812cd143c0fc6cd1e73488_AdobeStock_625253900.jpeg);
     background-repeat:no-repeat ;
+    background-size: cover;
     margin-left: 200px;
     margin-top: 100px;
     box-shadow: 8px 8px 8px red;
@@ -68,7 +71,7 @@ a:hover
 {
     grid-row:1/2 ;
     grid-column:2/3 ;
-    background-image: url(/img.html/birthday2.webp);
+    background-image: url(/img/happen/6347dab01e23fef85fb0d3f8_63457b651fc7f5b5a272591f_See+how+to+stop+slow+nights+with+these+restaurant+and+bar+event+ideas.jpg);
     background-repeat:no-repeat ;
     margin-left: 100px;
     background-size: cover;
@@ -81,14 +84,15 @@ a:hover
 {
     display: grid;
     grid-template-rows: 450px ;
-    grid-template-columns: 750px 660px;
+    grid-template-columns: 650px 550px;
 }
 #b1
 {
     grid-row:1/2 ;
     grid-column:1/2 ;
-    background-image: url(/img.html/kitty\ party1.jpg);
+    background-image: url(/img/happen/images.jpg);
     background-repeat:no-repeat ;
+    background-size: cover;
     margin-left: 200px;
     margin-top: 100px;
     box-shadow: 8px 8px 8px red;
@@ -97,7 +101,7 @@ a:hover
 {
     grid-row:1/2 ;
     grid-column:2/3 ;
-    background-image: url(/img.html/kitty\ party2.jpg);
+    background-image: url(/img/happen/images\ \(1\).jpg);
     background-repeat:no-repeat ;
     margin-left: 100px;
     background-size: cover;
@@ -111,15 +115,16 @@ a:hover
 {
     display: grid;
     grid-template-rows: 450px ;
-    grid-template-columns: 750px 660px;
+    grid-template-columns: 650px 550px;
     grid-gap: 2px;
 }
 #c1
 {
     grid-row:1/2 ;
     grid-column:1/2 ;
-    background-image: url(/img.html/happenings.jpg);
+    background-image: url(/img/happen/happenings-image-1024x683.jpg);
     background-repeat:no-repeat ;
+    background-size: cover;
     margin-left: 200px;
     margin-top: 100px;
     margin-bottom: 10px;
@@ -129,8 +134,9 @@ a:hover
 {
     grid-row:1/2 ;
     grid-column:2/3 ;
-    background-image: url(/img.html/view.jpg);
+    background-image: url(/img/happen/images\ \(2\).jpg);
     background-repeat:no-repeat ;
+    background-size: cover;
     margin-left: 100px;
     margin-bottom: 10px;
     background-position: cover;
